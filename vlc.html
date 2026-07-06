@@ -12,10 +12,29 @@
         <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/VLC_icon.png?_=20150202150351" alt="VLC player">
         <h2>VLC media player</h2>
     </div>
-    <div   class="menubar">
-        <button id="menubtn" class="openbtn">Open</button>
-        <button  id="menubtn" class="playbtn">Playback</button>
-        <button id="menubtn" class="volbtn">Audio</button>
+    <div class="menubar">
+
+        <div class="menu">
+        <div id="menubtn" class="openbtn">Open</div>
+        <input class="userFile" type="file">
+        </div>
+        
+        <div class="menu">
+            <div id="menubtn" class="playbtn">Playback</div>
+        <ul class="menu-item">
+            <li id="speedUp">Speed Up</li>
+            <li id="speedDown">Speed Down</li>
+        </ul>
+        </div>
+        
+         <div class="menu">
+            <div id="menubtn" class="volBtn">Audio</div>
+        <ul class="menu-item">
+            <li id="volUp">Volume Up</li>
+            <li id="volDown">Volume Down</li>
+        </ul>
+        </div>
+
     </div>
     <div class="vidplayarea">
 
